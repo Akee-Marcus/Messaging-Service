@@ -75,23 +75,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\akee2\\.nuget\\packages\\": {},
+    "C:\\Users\\tclb2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akee2\\source\\repos\\controller\\controller.csproj",
+      "projectUniqueName": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj",
       "projectName": "controller",
-      "projectPath": "C:\\Users\\akee2\\source\\repos\\controller\\controller.csproj",
-      "packagesPath": "C:\\Users\\akee2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akee2\\source\\repos\\controller\\obj\\",
+      "projectPath": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj",
+      "packagesPath": "C:\\Users\\tclb2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\akee2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tclb2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -149,7 +149,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
