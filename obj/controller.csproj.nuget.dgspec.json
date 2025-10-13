@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj": {}
+    "C:\\Users\\akee2\\source\\repos\\Messaging-Service\\controller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj": {
+    "C:\\Users\\akee2\\source\\repos\\Messaging-Service\\controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj",
+        "projectUniqueName": "C:\\Users\\akee2\\source\\repos\\Messaging-Service\\controller.csproj",
         "projectName": "controller",
-        "projectPath": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\controller.csproj",
-        "packagesPath": "C:\\Users\\tclb2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tclb2\\OneDrive\\Documents\\GitHub\\Messaging-Service\\obj\\",
+        "projectPath": "C:\\Users\\akee2\\source\\repos\\Messaging-Service\\controller.csproj",
+        "packagesPath": "C:\\Users\\akee2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akee2\\source\\repos\\Messaging-Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tclb2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\akee2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -48,12 +48,16 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             }
           },
           "imports": [
@@ -75,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
