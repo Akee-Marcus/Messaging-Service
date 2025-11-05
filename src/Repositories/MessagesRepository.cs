@@ -1,6 +1,5 @@
 using ChatService.Models;
 using System.Collections.Concurrent;
-
 namespace ChatService.Repositories;
 
 public class MessagesRepository

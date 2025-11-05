@@ -29,14 +29,14 @@ public class MessagesController : ControllerBase
         return Ok(message);
     }
 
-    [HttpGet("{user1}/{user2}")]
+    [HttpGet("conversation/{user1}/{user2}")]
     public IActionResult GetConversation(string user1, string user2)
     {
         var messages = _repository.GetMessagesBetween(user1, user2);
         return Ok(messages);
     }
 
-    [HttpGet("{userId}")]
+    [HttpGet("user/{userId}")]
     public IActionResult GetUserMessages(string userId)
     {
         var messages = _repository.GetMessagesForUser(userId);
