@@ -1,3 +1,5 @@
+using ChatService.Models;
+
 namespace ChatService.Repositories
 {
     public interface IMessagesRepository

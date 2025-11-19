@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}|src\\MessagingService.Presentation\\MessagingService.Presentation.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}|src\\MessagingService.Presentation\\MessagingService.Presentation.csproj|solutionrelative:src\\messagingservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FE2AAD-9476-4B13-964C-AC934EC6ED15}|src\\MessagingService.Application\\MessagingService.Application.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.application\\messagingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FE2AAD-9476-4B13-964C-AC934EC6ED15}|src\\MessagingService.Application\\MessagingService.Application.csproj|solutionrelative:src\\messagingservice.application\\messagingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32347FFD-7FC7-4EB0-B213-9499904497AB}|src\\MessagingService.Domain\\MessagingService.Domain.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32347FFD-7FC7-4EB0-B213-9499904497AB}|src\\MessagingService.Domain\\MessagingService.Domain.csproj|solutionrelative:src\\messagingservice.domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\MessagingService.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:01:01.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Domain\\Message.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Domain\\Message.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Domain\\Message.cs",
+              "RelativeToolTip": "src\\MessagingService.Domain\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:06:29.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessagingApplication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Application\\MessagingApplication.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Application\\MessagingApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Application\\MessagingApplication.cs",
+              "RelativeToolTip": "src\\MessagingService.Application\\MessagingApplication.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:04:19.49Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -26,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
