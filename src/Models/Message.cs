@@ -1,10 +1,13 @@
-namespace ChatService.Models;
+using System;
 
-public class Message
+namespace ChatService.Models
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
-    public string? SenderId { get; set; }
-    public string? ReceiverId { get; set; }
-    public string? Content { get; set; }
-    public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+    public class Message
+    {
+        public string SenderId { get; set; }
+        public string ReceiverId { get; set; }
+        public string Content { get; set; }
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
+        public bool IsRead { get; set; } = false;
+    }
 }

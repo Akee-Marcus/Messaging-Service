@@ -29,26 +29,34 @@ public class MessagesController : ControllerBase
         return Ok(message);
     }
 
-    [HttpGet("conversation/{user1}/{user2}")]
+    [HttpGet("{user1}/{user2}")]
     public IActionResult GetConversation(string user1, string user2)
     {
         var messages = _repository.GetMessagesBetween(user1, user2);
         return Ok(messages);
     }
 
-    [HttpGet("user/{userId}")]
+    [HttpGet("{userId}")]
     public IActionResult GetUserMessages(string userId)
     {
         var messages = _repository.GetMessagesForUser(userId);
         return Ok(messages);
     }
 
-    // Unread messages
-    [HttpGet("unread/{userId}")]
-     public IActionResult GetUnread(string userId)
-     {
-       var messages = _repository.GetUnreadMessages(userId);
-       return Ok(messages);
-     }
- 
+    [HttpGet("history/{user1}/{user2}")]
+ public IActionResult GetHistory(string user1, string user2)
+ {
+    var messages = _repository.GetConversation(user1, user2);
+    return Ok(messages);
+}
+
+[HttpGet("unread/{userId}")]
+public IActionResult GetUnread(string userId)
+{
+    var messages = _repository.GetUnreadMessages(userId);
+    return Ok(messages);
+}
+
+
+
 }
