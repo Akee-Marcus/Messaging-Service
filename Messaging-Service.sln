@@ -16,10 +16,24 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C88DD14-F956-CE84-757C-A364CCF449FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Application.Tests", "test\MessagingService.Application.Tests\MessagingService.Application.Tests.csproj", "{E1420FAA-E24D-45F2-BC93-158486826729}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53D3A61F-87A6-4D4A-8AC3-6F6CAFECF28F} = {53D3A61F-87A6-4D4A-8AC3-6F6CAFECF28F}
+		{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40} = {C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Domain.Tests", "test\MessagingService.Domain.Tests\MessagingService.Domain.Tests.csproj", "{AB70F84F-24B8-492F-8263-FCB805B21299}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09FE2AAD-9476-4B13-964C-AC934EC6ED15} = {09FE2AAD-9476-4B13-964C-AC934EC6ED15}
+		{53D3A61F-87A6-4D4A-8AC3-6F6CAFECF28F} = {53D3A61F-87A6-4D4A-8AC3-6F6CAFECF28F}
+		{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40} = {C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingService.Infrastructure.Tests", "test\MessagingService.Infrastructure.Tests\MessagingService.Infrastructure.Tests.csproj", "{DE4EB288-A76D-4A3D-B616-1E89391A95EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09FE2AAD-9476-4B13-964C-AC934EC6ED15} = {09FE2AAD-9476-4B13-964C-AC934EC6ED15}
+		{32347FFD-7FC7-4EB0-B213-9499904497AB} = {32347FFD-7FC7-4EB0-B213-9499904497AB}
+		{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40} = {C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
