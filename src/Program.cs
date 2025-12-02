@@ -3,7 +3,10 @@ using ChatService.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddSingleton<MessagesRepository>();
+builder.Services.AddSingleton<UsersRepository>();  
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
