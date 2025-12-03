@@ -1,45 +1,73 @@
+// Repositories/MessagesRepository.cs
 using ChatService.Models;
-using System.Collections.Generic;
-using System.Linq;
+using System.Collections.Concurrent;
 
-namespace ChatService.Repositories
+namespace ChatService.Repositories;
+
+public class MessagesRepository
 {
-    public class MessagesRepository
+    private readonly ConcurrentBag<Message> _messages = new();
+
+    public void AddMessage(Message message) => _messages.Add(message);
+
+    public IEnumerable<Message> GetMessagesBetween(string user1, string user2)
     {
-        private readonly List<Message> _messages = new();
-
-        public void AddMessage(Message message)
-        {
-            _messages.Add(message);
-        }
-
-        public IEnumerable<Message> GetMessagesBetween(string user1, string user2)
-        {
-            return _messages.Where(m =>
+        return _messages.Where(m =>
                 (m.SenderId == user1 && m.ReceiverId == user2) ||
                 (m.SenderId == user2 && m.ReceiverId == user1))
-                .OrderBy(m => m.Timestamp);
+            .OrderBy(m => m.Timestamp);
+    }
+
+    public IEnumerable<Message> GetMessagesForUser(string userId)
+    {
+        return _messages
+            .Where(m => m.SenderId == userId || m.ReceiverId == userId)
+            .OrderByDescending(m => m.Timestamp);
+    }
+
+    //  all unread messages for a user
+    public IEnumerable<Message> GetUnreadMessages(string userId)
+    {
+        return _messages
+            .Where(m => m.ReceiverId == userId && !m.IsRead)
+            .OrderBy(m => m.Timestamp);
+    }
+
+    //  mark one message as read
+    public bool MarkMessageAsRead(Guid messageId)
+    {
+        var message = _messages.FirstOrDefault(m => m.Id == messageId);
+        if (message is null)
+        {
+            return false;
         }
 
-        public IEnumerable<Message> GetMessagesForUser(string userId)
+        if (!message.IsRead)
         {
-            return _messages.Where(m => m.SenderId == userId || m.ReceiverId == userId)
-                            .OrderBy(m => m.Timestamp);
+            message.IsRead = true;
+            message.ReadAt = DateTime.UtcNow;
         }
 
-        public IEnumerable<Message> GetUnreadMessages(string userId)
+        return true;
+    }
+
+    //  mark all messages in a conversation as read for one user
+    public int MarkConversationAsRead(string user1, string user2, string readerId)
+    {
+        var toMark = _messages.Where(m =>
+            ((m.SenderId == user1 && m.ReceiverId == user2) ||
+             (m.SenderId == user2 && m.ReceiverId == user1)) &&
+            m.ReceiverId == readerId &&
+            !m.IsRead);
+
+        int count = 0;
+        foreach (var m in toMark)
         {
-            return _messages.Where(m => m.ReceiverId == userId && !m.IsRead)
-                            .OrderBy(m => m.Timestamp);
+            m.IsRead = true;
+            m.ReadAt = DateTime.UtcNow;
+            count++;
         }
 
-        // Optional: Mark messages as read
-        public void MarkAsRead(string userId)
-        {
-            foreach (var msg in _messages.Where(m => m.ReceiverId == userId && !m.IsRead))
-            {
-                msg.IsRead = true;
-            }
-        }
+        return count;
     }
 }
