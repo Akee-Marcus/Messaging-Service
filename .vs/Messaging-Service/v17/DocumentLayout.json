@@ -1,9 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Messaging-Service\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Messaging-Service\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.domain.tests\\messagingservice.domain.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|solutionrelative:test\\messagingservice.domain.tests\\messagingservice.domain.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.domain.tests\\messagingservice.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|solutionrelative:test\\messagingservice.domain.tests\\messagingservice.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.infrastructure.tests\\messagingservice.infrastructure.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|solutionrelative:test\\messagingservice.infrastructure.tests\\messagingservice.infrastructure.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.infrastructure.tests\\messagingservice.infrastructure.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|solutionrelative:test\\messagingservice.infrastructure.tests\\messagingservice.infrastructure.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.application.tests\\messagingservice.application.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|solutionrelative:test\\messagingservice.application.tests\\messagingservice.application.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.application.tests\\messagingservice.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|solutionrelative:test\\messagingservice.application.tests\\messagingservice.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1420FAA-E24D-45F2-BC93-158486826729}|test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj|solutionrelative:test\\messagingservice.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.infrastructure.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4EB288-A76D-4A3D-B616-1E89391A95EB}|test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj|solutionrelative:test\\messagingservice.infrastructure.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\test\\messagingservice.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB70F84F-24B8-492F-8263-FCB805B21299}|test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj|solutionrelative:test\\messagingservice.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32347FFD-7FC7-4EB0-B213-9499904497AB}|src\\MessagingService.Domain\\MessagingService.Domain.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32347FFD-7FC7-4EB0-B213-9499904497AB}|src\\MessagingService.Domain\\MessagingService.Domain.csproj|solutionrelative:src\\messagingservice.domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FE2AAD-9476-4B13-964C-AC934EC6ED15}|src\\MessagingService.Application\\MessagingService.Application.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.application\\messagingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FE2AAD-9476-4B13-964C-AC934EC6ED15}|src\\MessagingService.Application\\MessagingService.Application.csproj|solutionrelative:src\\messagingservice.application\\messagingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}|src\\MessagingService.Presentation\\MessagingService.Presentation.csproj|c:\\users\\user\\desktop\\messagingservicerepo11-8\\src\\messagingservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CD4B98-1BD7-47CE-97F1-2DB92C1CCA40}|src\\MessagingService.Presentation\\MessagingService.Presentation.csproj|solutionrelative:src\\messagingservice.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -14,8 +62,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessagingService.Domain.Tests",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T01:12:13.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessagingService.Domain.Tests",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Domain.Tests\\MessagingService.Domain.Tests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T01:12:20.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessagingService.Infrastructure.Tests",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T01:12:32.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessagingService.Infrastructure.Tests",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Infrastructure.Tests\\MessagingService.Infrastructure.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T01:12:29.924Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -26,11 +124,114 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "MessagingService.Application.Tests",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T00:56:56.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessagingService.Application.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "RelativeDocumentMoniker": "test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "RelativeToolTip": "test\\MessagingService.Application.Tests\\MessagingService.Application.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T01:02:23.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "test\\MessagingService.Application.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Application.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "test\\MessagingService.Application.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T19:28:36.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "test\\MessagingService.Infrastructure.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Infrastructure.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "test\\MessagingService.Infrastructure.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:42:43.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "test\\MessagingService.Domain.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\test\\MessagingService.Domain.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "test\\MessagingService.Domain.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:40:54.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Domain\\Message.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Domain\\Message.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Domain\\Message.cs",
+              "RelativeToolTip": "src\\MessagingService.Domain\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:06:29.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessagingApplication.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Application\\MessagingApplication.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Application\\MessagingApplication.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Application\\MessagingApplication.cs",
+              "RelativeToolTip": "src\\MessagingService.Application\\MessagingApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:04:19.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\MessagingService.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\src\\MessagingService.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\MessagingService.Presentation\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T21:01:01.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Messaging-Service\\docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Messaging-Service\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MessagingServiceRepo11-8\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
