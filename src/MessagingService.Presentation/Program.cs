@@ -1,7 +1,6 @@
 // Program.cs
 using ChatService.Repositories;
 using Microsoft.AspNetCore.Builder;
-using Swashbuckle.AspNetCore.SwaggerUI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +28,6 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
     app.UseSwagger();
     app.UseSwaggerUI(
         options => // UseSwaggerUI is called only in Development.
