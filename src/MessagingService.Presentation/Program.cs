@@ -1,6 +1,7 @@
 // Program.cs
 using ChatService.Repositories;
 using Microsoft.AspNetCore.Builder;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,7 @@ builder.Services.AddSwaggerGen(
         Title = "Chat Service API",
         Version = "v1"
     });
-    
+
         var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
         options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
     }
